@@ -2,7 +2,7 @@
 use warnings;
 use utf8;
 
-# Currently the GFF3 must have no spaces between each line.
+# Currently it will work if the GFF3 has spaces between lines but it will throw an error in the command line.
 
 open ( $INPUT, "<", "TEST.gff3")
 	or die "Can't open < TEST.gff3: $!";
